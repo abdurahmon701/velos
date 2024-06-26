@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 700px;
+    background-image: url('./1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 1px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    color: white;
+}
+.text a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.text a:hover{
+    color: #F57520;
+}
+.imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+}
+.elec{
+    color: white;
+    width: 500px;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.elec h1{
+    font-size: 80px;
+}
+.elec p{
+    margin-top: 40px;
+}
+.elec button{
+    background-color: #F57520;
+    width: 180px;
+    height: 42px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 40px;
+    border: none;
+}
+.elec button:hover{
+    border: 1px solid black;
+    background-color: rgb(159, 4, 33);
+}
+.velosiped{
+    width: 1300px;
+    margin: auto;
+    margin-left: 70px;
+}
+.velosip{
+    background-color: #F57520;
+    width: 1210px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    color: white;
+}
+.velos{
+    display: flex;
+    width: 1300px;
+    margin-top: 15px;
+}
+.zap{
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+}
+.vel{
+    background-color: black;
+    width: 400px;
+    height: 200px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.trade{
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    border-radius: 10px;
+    width: 400px;
+    height: 408px;
+    margin-top: 5px;
+    text-align: center;
+}
+.trade img{
+    width: 350px;
+}
+.kat{
+    text-align: center;
+    font-size: 64px;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bal{
+    width: 120px;
+    margin-left: 100px;
+}
+.balo{
+    width: 150px;
+}
+section h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.tr{
+    margin: auto;
+    display: flex;
+    width: 950px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.tras{
+    width: 300px;
+    height: 350px;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.tras:hover{
+    background-color: #F57520;
+}
+.tras img{
+    width: 300px;
+    border-radius: 10px;    
+}
+.tras h3{
+    margin-top: 30px;
+
+}
+.tras p{
+    margin-top: 20px;
+    font-size: 12px;
+}
+.section1{
+    background-color: #F57520;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: white;
+}
+.right img{
+    width: 100%;
+}
+.inputs{
+    display: flex;
+    width: 420px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.left h1{
+    font-size: 30px;
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+textarea{
+    width: 410px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+.left button{
+    width: 410px;
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: #F57520;
+}
+.left button:active{
+    background-color: #F57520;
+    color: white;
+    border: 2px solid white;
+}
+iframe{
+    width: 100%;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+}
+.foot{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 50px;
+}
+.fot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+}
+.fot p{
+    margin-top: 20px;
+    color: rgb(205, 205, 205);
+}
+.ph{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.kont img{
+    margin-top: 20px;
+}
